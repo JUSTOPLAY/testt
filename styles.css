@@ -1,0 +1,66 @@
+/* styles.css */
+
+/* Importando uma fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+/* Estilos gerais */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Bungee Spice', Bungee Spice;  /* Aplicando a fonte escolhida */
+    background-color: #f0f0f0;
+}
+
+/* Estilos do container */
+.container {
+    text-align: center;
+    background-color: #ffffff;  /* Cor de fundo do container */
+    border: 2px solid #4CAF50;  /* Borda do container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra para dar profundidade */
+}
+
+/* Estilos dos botões */
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;  /* Transição suave para a mudança de cor */
+}
+
+#yesButton {
+    background-color: #4CAF50;  /* Cor do botão "Sim" */
+    color: white;
+    border: none;
+}
+
+#yesButton:hover {
+    background-color: #45a049;  /* Cor ao passar o mouse sobre o botão "Sim" */
+}
+
+#noButton {
+    background-color: #f44336;  /* Cor do botão "Não" */
+    color: white;
+    border: none;
+    position: relative;
+}
+
+#noButton:hover {
+    background-color: #e53935;  /* Cor ao passar o mouse sobre o botão "Não" */
+}
+
+/* Estilo do título */
+h1 {
+    color: #333;  /* Cor do texto do título */
+    font-weight: 700;  /* Peso da fonte (mais grosso) */
+}
